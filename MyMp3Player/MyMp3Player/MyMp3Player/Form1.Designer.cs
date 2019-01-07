@@ -38,6 +38,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -82,7 +83,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(169, 96);
+            this.pictureBox1.Location = new System.Drawing.Point(180, 71);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(283, 273);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -95,7 +96,7 @@
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(62, 450);
+            this.button1.Location = new System.Drawing.Point(39, 450);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(73, 56);
             this.button1.TabIndex = 3;
@@ -107,7 +108,7 @@
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(222, 417);
+            this.button2.Location = new System.Drawing.Point(228, 369);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(61, 39);
             this.button2.TabIndex = 3;
@@ -118,7 +119,7 @@
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.Location = new System.Drawing.Point(289, 417);
+            this.button3.Location = new System.Drawing.Point(295, 369);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(61, 39);
             this.button3.TabIndex = 3;
@@ -142,16 +143,28 @@
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.Location = new System.Drawing.Point(356, 417);
+            this.button5.Location = new System.Drawing.Point(362, 369);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(61, 39);
             this.button5.TabIndex = 3;
             this.button5.UseVisualStyleBackColor = true;
             // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.button7.Location = new System.Drawing.Point(244, 458);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(178, 36);
+            this.button7.TabIndex = 4;
+            this.button7.Text = "Open Video Player";
+            this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(644, 518);
+            this.Controls.Add(this.button7);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -183,6 +196,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button7;
     }
 }
 

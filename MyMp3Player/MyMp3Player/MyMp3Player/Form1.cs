@@ -54,5 +54,11 @@ namespace MyMp3Player
         {
 
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Form2 videoplayer = new Form2();
+            videoplayer.Show();
+        }
     }
 }
